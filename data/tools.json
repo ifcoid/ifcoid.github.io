@@ -656,6 +656,22 @@
       "url": "https://universitas.bukupedia.co.id/latex/",
       "category": "Writing & Typesetting",
       "description": "Comprehensive guide for LaTeX installation, setup, package installation, and compilation in Indonesian"
+    },
+    {
+      "id": "git-download-windows",
+      "title": "Download Git for Windows",
+      "keywords": [
+        "git",
+        "download",
+        "windows",
+        "install",
+        "unduh",
+        "version control",
+        "installer"
+      ],
+      "url": "https://git-scm.com/install/windows",
+      "category": "Programming & Analysis",
+      "description": "Download and install Git for Windows"
     }
   ]
 }
