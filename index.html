@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Search engine for academic and research tools with autocomplete">
+  <meta name="author" content="Academic Tools Directory">
+  <title>Academic Research Tools - Search Directory</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Preconnect to CDN for faster loading -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+</head>
+
+<body>
+  <main class="search-container">
+    <!-- Header -->
+    <header class="header">
+      <h1 class="title">Academic Research Tools</h1>
+      <p class="subtitle">Direktori tools untuk riset dan akademik</p>
+    </header>
+
+    <!-- Search Box -->
+    <div class="search-box">
+      <div class="search-input-wrapper">
+        <svg class="search-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <path d="M9 17A8 8 0 1 0 9 1a8 8 0 0 0 0 16zM18 18l-4.35-4.35" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        <input type="text" id="search-input" class="search-input"
+          placeholder="Search academic tools... (e.g., latex, zotero, python)" autocomplete="off" spellcheck="false" />
+        <div class="search-hint">
+          <kbd>↑</kbd> <kbd>↓</kbd> to navigate • <kbd>Enter</kbd> to open • <kbd>Esc</kbd> to close
+        </div>
+      </div>
+
+      <!-- Results Container -->
+      <div id="results" class="results-container"></div>
+    </div>
+
+    <!-- Footer Info -->
+    <footer class="footer">
+      <p>Powered by <a href="https://fusejs.io/" target="_blank" rel="noopener">Fuse.js</a> • <span
+          id="tool-count">Loading...</span> tools available</p>
+    </footer>
+  </main>
+
+  <!-- Main Application Script (ES6 Module) -->
+  <script type="module" src="js/main.js"></script>
+
+  <!-- Tool Count Display -->
+  <script type="module">
+    import { SearchEngine } from './js/search.js';
+    const engine = new SearchEngine();
+    engine.init().then(() => {
+      document.getElementById('tool-count').textContent = engine.data.length;
+    });
+  </script>
+</body>
+
+</html>

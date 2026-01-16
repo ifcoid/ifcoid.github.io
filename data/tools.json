@@ -1,0 +1,244 @@
+{
+  "tools": [
+    {
+      "id": "overleaf",
+      "title": "Overleaf - Online LaTeX Editor",
+      "keywords": ["latex", "overleaf", "editor", "collaborative", "typesetting", "document"],
+      "url": "https://www.overleaf.com/",
+      "category": "Writing & Typesetting",
+      "description": "Collaborative cloud-based LaTeX editor with real-time collaboration"
+    },
+    {
+      "id": "latex-tutorial",
+      "title": "Learn LaTeX in 30 Minutes",
+      "keywords": ["latex", "tutorial", "guide", "learn", "beginner"],
+      "url": "https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes",
+      "category": "Writing & Typesetting",
+      "description": "Comprehensive beginner's guide to LaTeX typesetting"
+    },
+    {
+      "id": "zotero",
+      "title": "Zotero Reference Manager",
+      "keywords": ["zotero", "reference", "citation", "bibliography", "mendeley alternative"],
+      "url": "https://www.zotero.org/",
+      "category": "Reference Management",
+      "description": "Free, open-source reference management software"
+    },
+    {
+      "id": "mendeley",
+      "title": "Mendeley Reference Manager",
+      "keywords": ["mendeley", "reference", "citation", "bibliography", "pdf organizer"],
+      "url": "https://www.mendeley.com/",
+      "category": "Reference Management",
+      "description": "Reference manager and academic social network"
+    },
+    {
+      "id": "jupyter",
+      "title": "Jupyter Notebook",
+      "keywords": ["jupyter", "python", "notebook", "interactive", "data science", "ipynb"],
+      "url": "https://jupyter.org/",
+      "category": "Programming & Analysis",
+      "description": "Interactive computing environment for data science"
+    },
+    {
+      "id": "google-scholar",
+      "title": "Google Scholar",
+      "keywords": ["google scholar", "papers", "research", "search", "citations", "articles"],
+      "url": "https://scholar.google.com/",
+      "category": "Search & Discovery",
+      "description": "Search engine for scholarly literature"
+    },
+    {
+      "id": "arxiv",
+      "title": "arXiv.org",
+      "keywords": ["arxiv", "preprint", "papers", "physics", "cs", "math", "research"],
+      "url": "https://arxiv.org/",
+      "category": "Search & Discovery",
+      "description": "Open-access archive for scholarly articles"
+    },
+    {
+      "id": "r-project",
+      "title": "R Programming Language",
+      "keywords": ["r", "statistics", "rstudio", "programming", "data analysis"],
+      "url": "https://www.r-project.org/",
+      "category": "Programming & Analysis",
+      "description": "Statistical computing and graphics software"
+    },
+    {
+      "id": "python",
+      "title": "Python.org",
+      "keywords": ["python", "programming", "data science", "machine learning", "scripting"],
+      "url": "https://www.python.org/",
+      "category": "Programming & Analysis",
+      "description": "Official Python programming language website"
+    },
+    {
+      "id": "matplotlib",
+      "title": "Matplotlib Visualization",
+      "keywords": ["matplotlib", "python", "plotting", "visualization", "graphs", "charts"],
+      "url": "https://matplotlib.org/",
+      "category": "Data Visualization",
+      "description": "Python plotting library for creating static, animated, and interactive visualizations"
+    },
+    {
+      "id": "plotly",
+      "title": "Plotly Interactive Graphs",
+      "keywords": ["plotly", "interactive", "visualization", "charts", "dashboard"],
+      "url": "https://plotly.com/",
+      "category": "Data Visualization",
+      "description": "Interactive graphing library for Python, R, and JavaScript"
+    },
+    {
+      "id": "tableau",
+      "title": "Tableau Public",
+      "keywords": ["tableau", "visualization", "dashboard", "business intelligence", "data viz"],
+      "url": "https://public.tableau.com/",
+      "category": "Data Visualization",
+      "description": "Free data visualization platform"
+    },
+    {
+      "id": "grammarly",
+      "title": "Grammarly Writing Assistant",
+      "keywords": ["grammarly", "grammar", "writing", "proofreading", "editing"],
+      "url": "https://www.grammarly.com/",
+      "category": "Writing & Typesetting",
+      "description": "AI-powered writing assistant for grammar and style"
+    },
+    {
+      "id": "deepl",
+      "title": "DeepL Translator",
+      "keywords": ["deepl", "translation", "translate", "language", "multilingual"],
+      "url": "https://www.deepl.com/",
+      "category": "Writing & Typesetting",
+      "description": "AI-powered translation service"
+    },
+    {
+      "id": "sciencedirect",
+      "title": "ScienceDirect",
+      "keywords": ["sciencedirect", "elsevier", "journals", "papers", "articles", "research"],
+      "url": "https://www.sciencedirect.com/",
+      "category": "Search & Discovery",
+      "description": "Elsevier's platform for scientific, technical, and medical research"
+    },
+    {
+      "id": "pubmed",
+      "title": "PubMed",
+      "keywords": ["pubmed", "ncbi", "biomedical", "medical", "health", "research"],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "category": "Search & Discovery",
+      "description": "Free search engine for biomedical and life sciences literature"
+    },
+    {
+      "id": "github",
+      "title": "GitHub",
+      "keywords": ["github", "git", "code", "repository", "version control", "collaboration"],
+      "url": "https://github.com/",
+      "category": "Programming & Analysis",
+      "description": "Platform for version control and collaboration"
+    },
+    {
+      "id": "colab",
+      "title": "Google Colab",
+      "keywords": ["colab", "jupyter", "python", "gpu", "free", "notebook", "colaboratory"],
+      "url": "https://colab.research.google.com/",
+      "category": "Programming & Analysis",
+      "description": "Free Jupyter notebook environment with GPU support"
+    },
+    {
+      "id": "kaggle",
+      "title": "Kaggle",
+      "keywords": ["kaggle", "dataset", "competition", "machine learning", "data science"],
+      "url": "https://www.kaggle.com/",
+      "category": "Programming & Analysis",
+      "description": "Platform for data science competitions and datasets"
+    },
+    {
+      "id": "orcid",
+      "title": "ORCID",
+      "keywords": ["orcid", "researcher id", "profile", "academic identity"],
+      "url": "https://orcid.org/",
+      "category": "Academic Profile",
+      "description": "Persistent digital identifier for researchers"
+    },
+    {
+      "id": "researchgate",
+      "title": "ResearchGate",
+      "keywords": ["researchgate", "network", "papers", "collaboration", "social"],
+      "url": "https://www.researchgate.net/",
+      "category": "Academic Profile",
+      "description": "Social networking site for scientists and researchers"
+    },
+    {
+      "id": "notion",
+      "title": "Notion",
+      "keywords": ["notion", "notes", "organization", "wiki", "knowledge base", "productivity"],
+      "url": "https://www.notion.so/",
+      "category": "Productivity",
+      "description": "All-in-one workspace for notes, tasks, wikis, and databases"
+    },
+    {
+      "id": "obsidian",
+      "title": "Obsidian",
+      "keywords": ["obsidian", "notes", "markdown", "knowledge", "zettelkasten", "pkm"],
+      "url": "https://obsidian.md/",
+      "category": "Productivity",
+      "description": "Powerful knowledge base built on local markdown files"
+    },
+    {
+      "id": "connected-papers",
+      "title": "Connected Papers",
+      "keywords": ["connected papers", "visualization", "citation graph", "literature review"],
+      "url": "https://www.connectedpapers.com/",
+      "category": "Search & Discovery",
+      "description": "Visual tool for finding and exploring academic papers"
+    },
+    {
+      "id": "sciwheel",
+      "title": "SciWheel Reference Manager",
+      "keywords": ["sciwheel", "reference", "citation", "bibliography", "collaboration"],
+      "url": "https://sciwheel.com/",
+      "category": "Reference Management",
+      "description": "Collaborative reference manager for research teams"
+    },
+    {
+      "id": "pandas",
+      "title": "Pandas Data Analysis",
+      "keywords": ["pandas", "python", "data analysis", "dataframe", "csv", "excel"],
+      "url": "https://pandas.pydata.org/",
+      "category": "Programming & Analysis",
+      "description": "Powerful Python data analysis and manipulation library"
+    },
+    {
+      "id": "scikit-learn",
+      "title": "Scikit-learn Machine Learning",
+      "keywords": ["scikit", "sklearn", "machine learning", "python", "ml", "classification"],
+      "url": "https://scikit-learn.org/",
+      "category": "Programming & Analysis",
+      "description": "Machine learning library for Python"
+    },
+    {
+      "id": "tensorflow",
+      "title": "TensorFlow",
+      "keywords": ["tensorflow", "deep learning", "neural network", "ai", "machine learning"],
+      "url": "https://www.tensorflow.org/",
+      "category": "Programming & Analysis",
+      "description": "Open-source platform for machine learning"
+    },
+    {
+      "id": "pytorch",
+      "title": "PyTorch",
+      "keywords": ["pytorch", "deep learning", "neural network", "ai", "machine learning"],
+      "url": "https://pytorch.org/",
+      "category": "Programming & Analysis",
+      "description": "Open-source machine learning framework"
+    },
+    {
+      "id": "semantic-scholar",
+      "title": "Semantic Scholar",
+      "keywords": ["semantic scholar", "ai", "papers", "research", "citations", "search"],
+      "url": "https://www.semanticscholar.org/",
+      "category": "Search & Discovery",
+      "description": "AI-powered research tool for scientific literature"
+    }
+  ]
+}
