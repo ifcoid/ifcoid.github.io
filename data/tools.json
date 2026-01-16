@@ -541,6 +541,121 @@
       "url": "https://github.com/settings/ssh/new",
       "category": "Programming & Analysis",
       "description": "Add SSH key to GitHub for secure authentication"
+    },
+    {
+      "id": "r-download-windows",
+      "title": "Download R for Windows",
+      "keywords": [
+        "r",
+        "download",
+        "windows",
+        "install",
+        "cran",
+        "statistics",
+        "rstudio"
+      ],
+      "url": "https://cran.r-project.org/bin/windows/base/",
+      "category": "Programming & Analysis",
+      "description": "Download and install R for Windows from CRAN"
+    },
+    {
+      "id": "minimax-agent",
+      "title": "MiniMax Agent",
+      "keywords": [
+        "minimax",
+        "ai",
+        "agent",
+        "chatbot",
+        "assistant",
+        "llm",
+        "conversation"
+      ],
+      "url": "https://agent.minimax.io/",
+      "category": "Programming & Analysis",
+      "description": "AI agent platform powered by MiniMax for intelligent conversations"
+    },
+    {
+      "id": "z-ai-chat",
+      "title": "Z.ai Chat",
+      "keywords": [
+        "z.ai",
+        "zai",
+        "ai",
+        "chat",
+        "assistant",
+        "llm",
+        "conversation"
+      ],
+      "url": "https://chat.z.ai/",
+      "category": "Programming & Analysis",
+      "description": "AI chat assistant for productivity and research tasks"
+    },
+    {
+      "id": "qwen-ai",
+      "title": "Qwen AI Chat",
+      "keywords": [
+        "qwen",
+        "alibaba",
+        "ai",
+        "chat",
+        "assistant",
+        "llm",
+        "chinese",
+        "conversation"
+      ],
+      "url": "https://chat.qwen.ai/",
+      "category": "Programming & Analysis",
+      "description": "Qwen AI chat assistant by Alibaba Cloud for multilingual conversations"
+    },
+    {
+      "id": "notebooklm",
+      "title": "NotebookLM",
+      "keywords": [
+        "notebooklm",
+        "google",
+        "ai",
+        "notes",
+        "research",
+        "assistant",
+        "gemini",
+        "organization"
+      ],
+      "url": "https://notebooklm.google.com/",
+      "category": "Productivity",
+      "description": "Google's AI-powered note-taking and research assistant using Gemini"
+    },
+    {
+      "id": "nopanel",
+      "title": "Nopanel Git Bash Setup",
+      "keywords": [
+        "nopanel",
+        "git",
+        "bash",
+        "setup",
+        "configuration",
+        "github",
+        "awangga"
+      ],
+      "url": "https://github.com/awangga/nopanel",
+      "category": "Programming & Analysis",
+      "description": "Tool for initial Git Bash setup and configuration"
+    },
+    {
+      "id": "bukupedia-latex",
+      "title": "LaTeX Setup Guide - Bukupedia",
+      "keywords": [
+        "latex",
+        "installation",
+        "setup",
+        "tutorial",
+        "package",
+        "compile",
+        "bukupedia",
+        "indonesian"
+      ],
+      "url": "https://universitas.bukupedia.co.id/latex/",
+      "category": "Writing & Typesetting",
+      "description": "Comprehensive guide for LaTeX installation, setup, package installation, and compilation in Indonesian"
     }
   ]
 }
