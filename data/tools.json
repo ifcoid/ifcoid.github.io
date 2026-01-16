@@ -672,6 +672,90 @@
       "url": "https://git-scm.com/install/windows",
       "category": "Programming & Analysis",
       "description": "Download and install Git for Windows"
+    },
+    {
+      "id": "osint-framework",
+      "title": "OSINT Framework",
+      "keywords": [
+        "osint",
+        "framework",
+        "information gathering",
+        "research",
+        "intelligence",
+        "investigation",
+        "tools"
+      ],
+      "url": "https://osintframework.com/",
+      "category": "Search & Discovery",
+      "description": "Collection of OSINT tools and resources for information gathering and research"
+    },
+    {
+      "id": "mitre-attack",
+      "title": "MITRE ATT&CK",
+      "keywords": [
+        "mitre",
+        "attack",
+        "cybersecurity",
+        "threat",
+        "tactics",
+        "techniques",
+        "security",
+        "framework"
+      ],
+      "url": "https://attack.mitre.org/",
+      "category": "Search & Discovery",
+      "description": "Knowledge base of adversary tactics and techniques based on real-world observations"
+    },
+    {
+      "id": "maxqda",
+      "title": "MAXQDA",
+      "keywords": [
+        "maxqda",
+        "qualitative",
+        "analysis",
+        "data",
+        "mixed methods",
+        "coding",
+        "nvivo alternative",
+        "research"
+      ],
+      "url": "https://www.maxqda.com/",
+      "category": "Programming & Analysis",
+      "description": "Professional software for qualitative and mixed methods data analysis"
+    },
+    {
+      "id": "shodan",
+      "title": "Shodan",
+      "keywords": [
+        "shodan",
+        "iot",
+        "search engine",
+        "cybersecurity",
+        "devices",
+        "network",
+        "vulnerability",
+        "reconnaissance"
+      ],
+      "url": "https://www.shodan.io/",
+      "category": "Search & Discovery",
+      "description": "Search engine for Internet-connected devices and vulnerability research"
+    },
+    {
+      "id": "exploit-db",
+      "title": "Exploit-DB",
+      "keywords": [
+        "exploit",
+        "exploit-db",
+        "vulnerability",
+        "cve",
+        "security",
+        "penetration testing",
+        "offensive security",
+        "exploits"
+      ],
+      "url": "https://www.exploit-db.com/",
+      "category": "Search & Discovery",
+      "description": "Archive of public exploits and vulnerable software for security research"
     }
   ]
 }
