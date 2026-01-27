@@ -543,6 +543,25 @@
       "description": "Add SSH key to GitHub for secure authentication"
     },
     {
+      "id": "github-token",
+      "title": "GitHub Personal Access Token",
+      "keywords": [
+        "github token",
+        "personal access token",
+        "pat",
+        "github",
+        "api token",
+        "authentication",
+        "access token",
+        "credentials",
+        "api",
+        "security"
+      ],
+      "url": "https://github.com/settings/tokens/new",
+      "category": "Programming & Analysis",
+      "description": "Create a new personal access token for GitHub API authentication and Git operations"
+    },
+    {
       "id": "r-download-windows",
       "title": "Download R for Windows",
       "keywords": [
