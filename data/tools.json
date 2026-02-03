@@ -541,7 +541,7 @@
       "url": "https://github.com/settings/ssh/new",
       "category": "Programming & Analysis",
       "description": "Add SSH key to GitHub for secure authentication"
-    }, 
+    },
     {
       "id": "github-token",
       "title": "GitHub Personal Access Token",
@@ -775,6 +775,43 @@
       "url": "https://www.exploit-db.com/",
       "category": "Search & Discovery",
       "description": "Archive of public exploits and vulnerable software for security research"
+    },
+    {
+      "id": "scopus-neural-eeg",
+      "title": "Scopus - Neural Decoding & EEG Research",
+      "keywords": [
+        "scopus",
+        "neural decoding",
+        "brain decoding",
+        "electroencephalogram",
+        "electroencephalography",
+        "eeg",
+        "neuroscience",
+        "bci",
+        "brain-computer interface"
+      ],
+      "url": "https://www.scopus.com/results/results.uri?sort=plf-f&src=s&sid=5115b0a83dfb3041d14cb426a7aab5c3&sot=a&sdt=a&sl=220&s=%28+%28+TITLE-ABS-KEY+%28+%22neural+decoding%22+%29+OR+TITLE-ABS-KEY+%28+%22brain+decoding%22+%29+%29+AND+%28+TITLE-ABS-KEY+%28+%22electroencephalogram%22+%29+OR+TITLE-ABS-KEY+%28+%22electroencephalography%22+%29+%29+%29+AND+PUBYEAR+%26gt%3B+2019+AND+PUBYEAR+%26lt%3B+2027&origin=searchadvanced&editSaveSearch=&txGid=4a9db090daf7e26e6543aa36642b58c8&sessionSearchId=5115b0a83dfb3041d14cb426a7aab5c3&limit=10",
+      "category": "Search & Discovery",
+      "description": "Scopus advanced search for neural and brain decoding research using EEG/electroencephalography (2020-2026)"
+    },
+    {
+      "id": "sciencedirect-neural-eeg",
+      "title": "ScienceDirect - Neural Decoding & EEG Research",
+      "keywords": [
+        "pencarian",
+        "sciencedirect",
+        "elsevier",
+        "neural decoding",
+        "brain decoding",
+        "electroencephalogram",
+        "electroencephalography",
+        "eeg",
+        "neuroscience",
+        "bci"
+      ],
+      "url": "https://www.sciencedirect.com/search?date=2019-2027&qs=%28%22neural+decoding%22+OR+%22brain+decoding%22%29+AND+%28%22eeg%22+OR+%22electroencephalogram%22+OR+%22electroencephalography%22%29",
+      "category": "Search & Discovery",
+      "description": "ScienceDirect advanced search for neural and brain decoding research using EEG/electroencephalography (2019-2027)"
     }
   ]
 }
