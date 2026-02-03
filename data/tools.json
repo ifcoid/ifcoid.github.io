@@ -812,6 +812,25 @@
       "url": "https://www.sciencedirect.com/search?date=2019-2027&qs=%28%22neural+decoding%22+OR+%22brain+decoding%22%29+AND+%28%22eeg%22+OR+%22electroencephalogram%22+OR+%22electroencephalography%22%29",
       "category": "Search & Discovery",
       "description": "ScienceDirect advanced search for neural and brain decoding research using EEG/electroencephalography (2019-2027)"
+    },
+    {
+      "id": "ieee-neural-eeg",
+      "title": "IEEE Xplore - Neural Decoding & EEG Research",
+      "keywords": [
+        "ieee",
+        "ieee xplore",
+        "neural decoding",
+        "brain decoding",
+        "electroencephalogram",
+        "electroencephalography",
+        "eeg",
+        "neuroscience",
+        "bci",
+        "engineering"
+      ],
+      "url": "https://ieeexplore.ieee.org/search/searchresult.jsp?action=search&newsearch=true&matchBoolean=true&queryText=(%22All%20Metadata%22:%22neural%20decoding%22%20OR%20%22All%20Metadata%22:%22brain%20decoding%22)%20AND%20(%22All%20Metadata%22:%22eeg%22%20OR%20%22All%20Metadata%22:%22electroencephalogram%22%20OR%20%22All%20Metadata%22:%22electroencephalography%22)&ranges=2019_2026_Year",
+      "category": "Search & Discovery",
+      "description": "IEEE Xplore advanced search for neural and brain decoding research using EEG/electroencephalography (2019-2026)"
     }
   ]
 }
