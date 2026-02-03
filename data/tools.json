@@ -541,7 +541,7 @@
       "url": "https://github.com/settings/ssh/new",
       "category": "Programming & Analysis",
       "description": "Add SSH key to GitHub for secure authentication"
-    },
+    }, 
     {
       "id": "github-token",
       "title": "GitHub Personal Access Token",
