@@ -321,7 +321,7 @@ body {
 .search-icon {
   position: absolute;
   left: var(--spacing-md);
-  top: 50%;
+  top: 1.8rem;
   transform: translateY(-50%);
   color: var(--text-tertiary);
   transition: color var(--transition-base);
