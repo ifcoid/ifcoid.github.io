@@ -715,6 +715,41 @@ body {
   color: var(--text-tertiary);
 }
 
+/* ==================== Dark Mode ==================== */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Color Palette - Dark */
+    --bg-primary: #1a1a2e;
+    --bg-secondary: #16213e;
+    --bg-tertiary: #0f3460;
+
+    --text-primary: #e8e8e8;
+    --text-secondary: #a8a8b3;
+    --text-tertiary: #7a7a8c;
+
+    --accent-primary: #4da6ff;
+    --accent-hover: #7bbfff;
+    --accent-light: #1a3a5c;
+
+    --border-color: #2a2a4a;
+    --border-light: #232345;
+
+    --success: #4caf50;
+    --warning: #ffb74d;
+    --error: #ef5350;
+
+    /* Shadows - Deeper for dark backgrounds */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 1px 3px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 4px 8px rgba(0, 0, 0, 0.4), 0 1px 3px rgba(0, 0, 0, 0.3);
+    --shadow-xl: 0 8px 16px rgba(0, 0, 0, 0.4), 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .product-link:hover {
+    background: #2a4a6e;
+  }
+}
+
 /* ==================== Responsive Design ==================== */
 @media (max-width: 968px) {
   .footer-inner {
