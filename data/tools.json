@@ -831,6 +831,76 @@
       "url": "https://ieeexplore.ieee.org/search/searchresult.jsp?action=search&newsearch=true&matchBoolean=true&queryText=(%22All%20Metadata%22:%22neural%20decoding%22%20OR%20%22All%20Metadata%22:%22brain%20decoding%22)%20AND%20(%22All%20Metadata%22:%22eeg%22%20OR%20%22All%20Metadata%22:%22electroencephalogram%22%20OR%20%22All%20Metadata%22:%22electroencephalography%22)&ranges=2019_2026_Year",
       "category": "Search & Discovery",
       "description": "IEEE Xplore advanced search for neural and brain decoding research using EEG/electroencephalography (2019-2026)"
+    },
+    {
+      "id": "slr-backend",
+      "title": "SLR Backend Download",
+      "keywords": [
+        "backend slr",
+        "slr backend",
+        "slr local",
+        "slr server",
+        "slr download",
+        "slr installer",
+        "systematic literature review backend"
+      ],
+      "url": "https://if.co.id/download/",
+      "category": "Programming & Analysis",
+      "description": "Download SLR backend application for local systematic literature review processing"
+    },
+    {
+      "id": "llmyid-download",
+      "title": "LLM Proxy Download - ll.my.id",
+      "keywords": [
+        "rprompt",
+        "llm proxy",
+        "llmy",
+        "llm",
+        "route llm",
+        "llm router",
+        "llm gateway",
+        "proxy ai",
+        "llm routing"
+      ],
+      "url": "https://ll.my.id/download/",
+      "category": "Programming & Analysis",
+      "description": "Download LLM proxy and routing tool for managing multiple LLM endpoints"
+    },
+    {
+      "id": "slr-frontend",
+      "title": "SLR Frontend - Agentic SLR",
+      "keywords": [
+        "slr",
+        "slr frontend",
+        "slr agent",
+        "agen slr",
+        "slr agentic",
+        "systematic literature review",
+        "slr ai",
+        "slr tool",
+        "literature review agent"
+      ],
+      "url": "https://if.co.id/slr/",
+      "category": "Search & Discovery",
+      "description": "AI-powered agentic frontend for systematic literature review automation"
+    },
+    {
+      "id": "bansos-ai",
+      "title": "Bansos AI - Free LLM API",
+      "keywords": [
+        "bansos",
+        "bansos ai",
+        "api gratis",
+        "llm gratis",
+        "free llm",
+        "free api",
+        "gratis ai",
+        "llm free tier",
+        "bansos llm"
+      ],
+      "url": "https://ll.my.id/bansos/",
+      "category": "Programming & Analysis",
+      "description": "Free LLM API access (Bansos AI) for developers and researchers"
     }
   ]
 }
