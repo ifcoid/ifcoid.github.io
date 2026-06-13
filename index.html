@@ -4,9 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Search engine for academic and research tools with autocomplete">
-  <meta name="author" content="Academic Tools Directory">
-  <title>Academic Research Tools - Search Directory</title>
+  <meta name="description"
+    content="PT. Informatika Digital Bisnis - Solusi digital untuk riset, AI, dan pengembangan perangkat lunak">
+  <meta name="author" content="PT. Informatika Digital Bisnis">
+  <title>PT. Informatika Digital Bisnis - Digital Solutions for Research & AI</title>
 
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -20,37 +21,190 @@
 </head>
 
 <body>
-  <main class="search-container">
-    <!-- Header -->
-    <header class="header">
-      <h1 class="title">Academic Research Tools</h1>
-      <p class="subtitle">Direktori tools untuk riset dan akademik</p>
-    </header>
+  <!-- Navigation Header -->
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="/" class="navbar-brand">
+        <img src="square.png" alt="PT. Informatika Digital Bisnis" class="navbar-logo">
+        <span class="navbar-company">Informatika Digital Bisnis</span>
+      </a>
+      <nav class="navbar-nav">
+        <a href="#products" class="nav-link">Products</a>
+        <a href="#tools" class="nav-link">Tools</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <button class="navbar-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
 
-    <!-- Search Box -->
-    <div class="search-box">
-      <div class="search-input-wrapper">
-        <svg class="search-icon" width="10" height="30" viewBox="0 0 20 10" fill="none">
-          <path d="M9 17A8 8 0 1 0 9 1a8 8 0 0 0 0 16zM18 18l-4.35-4.35" stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round" />
-        </svg>
-        <input type="text" id="search-input" class="search-input"
-          placeholder="Search academic tools... (e.g., latex, zotero, python)" autocomplete="off" spellcheck="false" />
-        <div class="search-hint">
-          <kbd>↑</kbd> <kbd>↓</kbd> to navigate • <kbd>Enter</kbd> to open • <kbd>Esc</kbd> to close
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <h1 class="hero-title">Membangun Solusi Digital<br>untuk Masa Depan</h1>
+      <p class="hero-subtitle">PT. Informatika Digital Bisnis menyediakan platform AI, tools riset, dan solusi
+        teknologi untuk akademisi, developer, dan bisnis.</p>
+      <div class="hero-actions">
+        <a href="#products" class="btn btn-primary">Lihat Produk</a>
+        <a href="#tools" class="btn btn-secondary">Cari Tools</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number" id="tool-count">Loading...</span>
+          <span class="stat-label">Tools Available</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">3</span>
+          <span class="stat-label">Core Products</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">24/7</span>
+          <span class="stat-label">API Uptime</span>
         </div>
       </div>
+    </div>
+  </section>
 
-      <!-- Results Container -->
-      <div id="results" class="results-container"></div>
+  <!-- Search Tools Section -->
+  <section id="tools" class="section section-tools">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Tools Directory</h2>
+        <p class="section-subtitle">Cari tools untuk riset, akademik, dan pengembangan</p>
+      </div>
+
+      <div class="search-box">
+        <div class="search-input-wrapper">
+          <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <path d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16zM21 21l-4.35-4.35" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <input type="text" id="search-input" class="search-input"
+            placeholder="Search tools... (e.g., slr, llm, latex, zotero)" autocomplete="off" spellcheck="false" />
+          <div class="search-hint">
+            <kbd>↑</kbd> <kbd>↓</kbd> to navigate &bull; <kbd>Enter</kbd> to open &bull; <kbd>Esc</kbd> to close
+          </div>
+        </div>
+
+        <!-- Results Container -->
+        <div id="results" class="results-container"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Highlight Section -->
+  <section id="products" class="section section-products">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Our Products</h2>
+        <p class="section-subtitle">Platform dan layanan unggulan kami</p>
+      </div>
+
+      <div class="products-grid">
+        <!-- SLR Product -->
+        <div class="product-card">
+          <div class="product-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="product-title">SLR Platform</h3>
+          <p class="product-description">Systematic Literature Review dengan AI agent. Otomatisasi pencarian, seleksi,
+            dan analisis paper akademik.</p>
+          <div class="product-links">
+            <a href="https://if.co.id/slr/" target="_blank" rel="noopener" class="product-link">Frontend</a>
+            <a href="https://if.co.id/download/" target="_blank" rel="noopener" class="product-link">Backend</a>
+          </div>
+        </div>
+
+        <!-- LLM Proxy Product -->
+        <div class="product-card">
+          <div class="product-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="product-title">LLM Proxy</h3>
+          <p class="product-description">Router dan proxy untuk multiple LLM endpoints. Satu API untuk semua model AI
+            dengan load balancing otomatis.</p>
+          <div class="product-links">
+            <a href="https://ll.my.id/download/" target="_blank" rel="noopener" class="product-link">Download</a>
+          </div>
+        </div>
+
+        <!-- Bansos AI Product -->
+        <div class="product-card">
+          <div class="product-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="product-title">Bansos AI</h3>
+          <p class="product-description">Akses LLM API gratis untuk developer dan peneliti. Free tier tanpa batas
+            untuk eksperimen dan prototyping.</p>
+          <div class="product-links">
+            <a href="https://ll.my.id/bansos/" target="_blank" rel="noopener" class="product-link">Akses Gratis</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer with Contact -->
+  <footer id="contact" class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="square.png" alt="PT. Informatika Digital Bisnis" class="footer-logo">
+        <h3 class="footer-company">PT. Informatika Digital Bisnis</h3>
+        <p class="footer-tagline">Digital Solutions for Research & AI</p>
+      </div>
+
+      <div class="footer-links">
+        <h4 class="footer-heading">Products</h4>
+        <ul>
+          <li><a href="https://if.co.id/slr/" target="_blank" rel="noopener">SLR Platform</a></li>
+          <li><a href="https://ll.my.id/download/" target="_blank" rel="noopener">LLM Proxy</a></li>
+          <li><a href="https://ll.my.id/bansos/" target="_blank" rel="noopener">Bansos AI</a></li>
+          <li><a href="https://if.co.id/download/" target="_blank" rel="noopener">SLR Backend</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4 class="footer-heading">Contact Us</h4>
+        <ul>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke-linecap="round" stroke-linejoin="round"/>
+              <polyline points="22,6 12,13 2,6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <a href="mailto:i@if.co.id">i@if.co.id</a>
+          </li>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <a href="https://wa.me/62895800006000" target="_blank" rel="noopener">+62 895-8000-06000</a>
+          </li>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="12" cy="10" r="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Indonesia</span>
+          </li>
+        </ul>
+      </div>
     </div>
 
-    <!-- Footer Info -->
-    <footer class="footer">
-      <p>Powered by <a href="https://if.co.id/" target="_blank" rel="noopener">IF</a> • <span
-          id="tool-count">Loading...</span> tools available</p>
-    </footer>
-  </main>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2024 PT. Informatika Digital Bisnis. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
 
   <!-- Main Application Script (ES6 Module) -->
   <script type="module" src="js/main.js"></script>
@@ -61,6 +215,14 @@
     const engine = new SearchEngine();
     engine.init().then(() => {
       document.getElementById('tool-count').textContent = engine.data.length;
+    });
+  </script>
+
+  <!-- Mobile Nav Toggle -->
+  <script>
+    document.querySelector('.navbar-toggle').addEventListener('click', function () {
+      document.querySelector('.navbar-nav').classList.toggle('active');
+      this.classList.toggle('active');
     });
   </script>
 </body>
