@@ -902,6 +902,34 @@
       "url": "https://ll.my.id/bansos/",
       "category": "Programming & Analysis",
       "description": "Free LLM API access (Bansos AI) for developers and researchers"
+    },
+    {
+      "id": "llmyid-reviewer",
+      "title": "LLM Reviewer - Mitra Bestari AI",
+      "keywords": [
+        "review",
+        "reviewer",
+        "mitra bestari",
+        "mitra",
+        "bestari",
+        "llm review",
+        "llm rater",
+        "rater llm",
+        "review llm",
+        "reviewer llm",
+        "llm reviewer",
+        "bestari mitra",
+        "ai reviewer",
+        "reviewer ai",
+        "ai review",
+        "review ai",
+        "rater",
+        "llm mitra bestari",
+        "mitra bestari llm"
+      ],
+      "url": "https://ll.my.id/reviewer/",
+      "category": "Writing & Typesetting",
+      "description": "AI-powered manuscript reviewer and rater acting as mitra bestari (peer reviewer) for academic papers"
     }
   ]
 }
