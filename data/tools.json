@@ -930,6 +930,25 @@
       "url": "https://ll.my.id/reviewer/",
       "category": "Writing & Typesetting",
       "description": "AI-powered manuscript reviewer and rater acting as mitra bestari (peer reviewer) for academic papers"
+    },
+    {
+      "id": "proposal-frontend",
+      "title": "Proposal Frontend",
+      "keywords": [
+        "proposal",
+        "proposal frontend",
+        "buat proposal",
+        "proposal generator",
+        "proposal ai",
+        "proposal skripsi",
+        "proposal tesis",
+        "proposal penelitian",
+        "research proposal",
+        "tulis proposal"
+      ],
+      "url": "https://if.co.id/proposal/",
+      "category": "Writing & Typesetting",
+      "description": "Frontend untuk pembuatan dan pengelolaan proposal penelitian, skripsi, dan tesis"
     }
   ]
 }
