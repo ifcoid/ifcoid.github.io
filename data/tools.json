@@ -932,6 +932,20 @@
       "description": "AI-powered manuscript reviewer and rater acting as mitra bestari (peer reviewer) for academic papers"
     },
     {
+      "id": "slr-report",
+      "title": "SLR Report - Laporan Systematic Literature Review",
+      "keywords": [
+        "slr",
+        "slr report",
+        "intership 2",
+        "laporan slr",
+        "laporan intership"
+      ],
+      "url": "https://github.com/ifcoid/slr-report",
+      "category": "Writing & Typesetting",
+      "description": "Template dan panduan laporan Systematic Literature Review untuk Intership 2"
+    },
+    {
       "id": "proposal-frontend",
       "title": "Proposal Frontend",
       "keywords": [
