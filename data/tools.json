@@ -964,6 +964,38 @@
       "url": "https://if.co.id/proposal/",
       "category": "Writing & Typesetting",
       "description": "Frontend untuk pembuatan dan pengelolaan proposal penelitian, skripsi, dan tesis"
+    },
+    {
+      "id": "instruction",
+      "title": "Project Instructions - Markdown & AI Agent Rules",
+      "keywords": [
+        "markdown",
+        "project instructions",
+        "instruction",
+        "instrumen",
+        "instructions",
+        "claude.md",
+        "agents.md",
+        "memory",
+        "skill",
+        "skills",
+        "instruksi",
+        "rules",
+        "rule",
+        "aturan",
+        "prompt",
+        "system prompt",
+        "context",
+        "ai agent",
+        "coding agent",
+        "cursor rules",
+        "copilot instructions",
+        "template instruksi",
+        "panduan proyek"
+      ],
+      "url": "https://ll.my.id/instruction/",
+      "category": "Programming & Analysis",
+      "description": "Kumpulan instruksi dan aturan proyek dalam format Markdown untuk AI coding agent seperti CLAUDE.md, AGENTS.md, memory, skill, dan rules"
     }
   ]
 }
